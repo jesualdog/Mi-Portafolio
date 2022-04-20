@@ -1,0 +1,32 @@
+.caja-hobbies{
+    display: flex;
+    flex-wrap: wrap;/*Coloca los elemento uno debajo del otro sino caben en la misma fila*/
+    justify-content: space-between;/*Genera un espacio entre los dos elementos y los pega a los costados*/
+}
+
+.hobbies-items{
+    width: 15%;
+    height: 150px;
+    background: #FFFFFF;
+    padding: 70px 16px 16px;
+    box-shadow: 0px 0px 5px 1px #464646;
+    /*margin-bottom: 25px;*/
+}
+
+.hobbies-items i{
+    font-size: 35px;
+    color: #2A7AE4;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hobbies-items h3{
+    font-weight: 700;
+    font-size: 16px;
+    align-items: center;
+    color: #464646;
+    margin-top: 5px;
+}

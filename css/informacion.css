@@ -1,0 +1,56 @@
+.contenido-informacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;/*Genera un espacio entre los dos elementos y los pega a los costados*/
+    align-items: center;/*Alinea verticamente al centro el elemento*/
+}
+
+.texto-informacion{
+    width: 65%;
+}
+
+.texto-informacion h1{
+    font-weight: 700;
+    font-size: 42px;
+    color: #464646;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.texto-informacion p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 20px 0;
+    color: #464646;
+    text-align: justify;
+}
+
+.enlaces-informacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces-informacion div{
+    margin: 0 20px 0 0;
+}
+
+.enlaces-informacion a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;;
+    color: #464646;
+}
+
+.enlaces-informacion i{
+    font-size: 20px;
+    color: #464646;
+}
+
+.contenido-informacion img{
+    width: 34%;
+    height: 34%;
+    border-radius: 50%;
+    background: rgb(45, 139, 228);
+}

@@ -1,0 +1,39 @@
+.caja-formacion{
+    display: flex;
+    flex-wrap: wrap;/*Coloca los elemento uno debajo del otro sino caben en la misma fila*/
+    justify-content: space-between;/*Genera un espacio entre los dos elementos y los pega a los costados*/
+}
+
+.box-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 1px #464646;
+    height: 200px;
+    margin-bottom: 8px;
+}
+
+.formacion-imagen{
+    width: 20vh;
+    height: 20vh;
+}
+
+
+.formacion-items{
+    width: 23.5%;
+    /*margin-bottom: 25px;*/
+}
+
+.formacion-descripcion{
+    font-weight: 700;
+    font-size: 1rem;
+    color: #464646;
+    line-height: 25px;
+}
+
+.formacion-fin{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #464646;
+}
