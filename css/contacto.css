@@ -1,4 +1,8 @@
 .contacto{
+    padding: 35px 0;
+}
+
+.caja-contacto{
     display: flex;
     justify-content: space-between;
 }
@@ -15,13 +19,13 @@
     flex-direction: column;
 }
 
-.contacto-texto h2{
+.titulo-contacto{
     font-weight: 700;
     font-size: 32px;
     color: #464646;
 }
 
-.contacto-texto p{
+.parrafo-contacto{
     font-weight: 500;
     font-size: 16px;
     color: #464646;
@@ -71,4 +75,32 @@
     color: #FFFFFF;
     margin: 5px 0 0 0;
     cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+
+    .caja-contacto{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .contacto-img{
+        display: none;
+    }
+
+    .titulo-contacto{
+        font-size: 22px;
+    }
+
+    .contacto-texto{
+        width: 100%;
+    }
+
+    .contacto-btn{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        align-items: center;
+        padding: 10px;
+    }
 }

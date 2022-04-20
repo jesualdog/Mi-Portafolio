@@ -3,13 +3,6 @@
     font-weight: bold;
 }
 
-.titulo{
-    font-weight: 700;
-    font-size: 32px;
-    color: #464646;
-    text-align: center;
-    margin-bottom: 25px;
-}
 
 header::before{
     content: "";
@@ -34,6 +27,7 @@ nav{
     height: 80px;
     width: 100%;
     align-items: center;
+    padding: 0 40px;
 }
 
 .logo{
@@ -54,7 +48,7 @@ nav{
     font-size: 16px;
     color: #464646;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .enlaces-header a:hover{

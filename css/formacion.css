@@ -1,7 +1,19 @@
+.formacion{
+    padding: 35px 0;
+}
+
 .caja-formacion{
     display: flex;
     flex-wrap: wrap;/*Coloca los elemento uno debajo del otro sino caben en la misma fila*/
     justify-content: space-between;/*Genera un espacio entre los dos elementos y los pega a los costados*/
+}
+
+.titulo-formacion{
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .box-imagen{
@@ -15,8 +27,7 @@
 }
 
 .formacion-imagen{
-    width: 20vh;
-    height: 20vh;
+    width: 120px;
 }
 
 
@@ -36,4 +47,20 @@
     font-weight: 500;
     font-size: 1rem;
     color: #464646;
+}
+
+@media screen and (max-width: 800px){
+
+    .formacion{
+        padding: 35px 0 10px 0;
+    }
+
+    .titulo-formacion{
+        font-size: 22px;
+    }
+
+    .formacion-items{
+        width: 47%;
+        margin-bottom: 25px;
+    }
 }

@@ -9,9 +9,7 @@
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 35px 0;
-    /*overflow: hidden;Especifica si recortar contenido*/
-    
+    /*overflow: hidden;Especifica si recortar contenido*/  
 }
 
 header, #informacion, #skills, #hobbies, #experiencia{
