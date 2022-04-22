@@ -64,3 +64,20 @@
         margin-bottom: 25px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .formacion{
+        padding: 35px 0 10px 0;
+    }
+
+    .titulo-formacion{
+        font-size: 22px;
+    }
+  
+    .formacion-items{
+        width: 47%;
+        margin-bottom: 25px;
+    }
+    
+}

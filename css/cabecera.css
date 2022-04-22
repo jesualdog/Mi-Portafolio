@@ -80,11 +80,11 @@ nav{
     }
 
     .enlaces-header a{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .nombre::before {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -96,5 +96,13 @@ nav{
 
     .nav{
         padding: 0 5%;
+    }
+
+    .enlaces-header a{
+        font-size: 17px;
+    }
+
+    .nombre::before {
+        font-size: 17px;
     }
 }

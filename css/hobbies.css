@@ -61,3 +61,21 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+    .hobbies{
+        padding: 30px 0 10px 0;
+    }
+    
+    .titulo-hobbies{
+        font-size: 22px;
+    }
+
+    .hobbies-items{
+        width: 30%;
+        height: 130px;
+        padding: 50px 16px 16px;
+        margin-bottom: 25px;
+    }
+
+}

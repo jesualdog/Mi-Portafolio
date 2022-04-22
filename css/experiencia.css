@@ -147,7 +147,7 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
-/*
+
     .titulo-experiencia{
         font-size: 22px;
     }
@@ -174,11 +174,11 @@
     }
 
     .contenido-experiencia h3{
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .contenido-experiencia p{
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     .btn-demo{
@@ -199,5 +199,4 @@
         padding: 8px;
     }
 
-    */
 }

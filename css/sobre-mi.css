@@ -26,13 +26,27 @@
     }
 
     .titulo-sobreMi{
-        font-weight: 700;
         font-size: 22px;
         margin-bottom: 12px;
     }
 
     .parrafo-sobreMi{
-        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .texto-sobreMi{
+        width: 100%;
+    }
+
+    .titulo-sobreMi{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .parrafo-sobreMi{
         font-size: 14px;
         line-height: 16px;
     }

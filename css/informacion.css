@@ -71,12 +71,11 @@
 
     .informacion-parrafo{
         font-size: 14px;
-        line-height: 19px;
+        line-height: 16px;
         margin: 15px 0;
     }
 
     .enlaces-informacion a{
-        font-weight: 500;
         font-size: 14px;
     }
 
@@ -92,7 +91,29 @@
 }
 /*--- ---- ---- ---- ---- ---- */
 
-@media screen and (max-width: 768px) and (max-width: 1023px){
-    
+@media screen and (min-width: 768px) and (max-width: 1023px){
 
+    .informacion-titulo{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .texto-informacion{
+        width: 65%;
+    }
+
+    .informacion-parrafo{
+        font-size: 1rem;
+        line-height: 19px;
+    }
+
+    .contenido-informacion img{
+        width: 30%;
+        height: 30%;
+    }
+
+    .enlaces-informacion a{
+        font-size: 16px;
+    }
+    
 }
