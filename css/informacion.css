@@ -85,41 +85,14 @@
     }
 
     .contenido-informacion img{
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
         margin-bottom: 1.5rem;
     }
 }
 /*--- ---- ---- ---- ---- ---- */
 
-@media screen and (){
+@media screen and (max-width: 768px) and (max-width: 1023px){
     
-    .texto-informacion{
-        width: 67%;
-    }
 
-    .informacion-titulo{
-        font-size: 22px;
-        line-height: 26px;
-    }
-
-    .informacion-parrafo{
-        font-size: 16px;
-        line-height: 19px;
-        margin: 15px 0;
-    }
-
-    .enlaces-informacion a{
-        font-weight: 500;
-        font-size: 16px;
-    }
-
-    .enlaces-informacion i{
-        font-size: 15px;
-    }
-
-    .contenido-informacion img{
-        width: 28%;
-        height: 28%;
-    }
 }

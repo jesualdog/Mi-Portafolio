@@ -17,6 +17,7 @@
     width: 50vw;
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
 }
 
 .titulo-contacto{
@@ -105,33 +106,14 @@
         align-items: center;
         padding: 10px;
     }
+
+    .contacto-texto{
+        margin: 0;
+    }
 }
 
 /* --- --- --- Responsive Tablet --- --- --- */
 @media screen and (max-width: 1023px){
 
-    .caja-contacto{
-        width: 100%;
-        flex-direction: column-reverse;
-    }
-
-    .contacto-img{
-        display: none;
-    }
-
-    .titulo-contacto{
-        font-size: 22px;
-    }
-
-    .contacto-texto{
-        width: 100%;
-    }
-
-    .contacto-btn{
-        display: flex;
-        justify-content: center;
-        font-size: 14px;
-        align-items: center;
-        padding: 10px;
-    }
+  
 }

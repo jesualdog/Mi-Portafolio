@@ -42,7 +42,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 767px){
 
     .skills{
         padding: 35px 0 10px 0;
@@ -53,9 +53,10 @@
     }
 
     .skills-items{
-        width: 30%;
+        width: 47%;
         height: 130px;
         padding: 50px 16px 16px;
         margin-bottom: 25px;
     }
 }
+

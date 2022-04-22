@@ -79,4 +79,22 @@ nav{
         padding: 0 5%;
     }
 
+    .enlaces-header a{
+        font-size: 14px;
+    }
+
+    .nombre::before {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+
+    .texto-header{
+        display: none;
+    }
+
+    .nav{
+        padding: 0 5%;
+    }
 }
