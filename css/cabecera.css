@@ -27,7 +27,6 @@ nav{
     height: 80px;
     width: 100%;
     align-items: center;
-    padding: 0 40px;
 }
 
 .logo{
@@ -68,4 +67,16 @@ nav{
 .hamburguer i{
     font-size: 25px;
     line-height: 50px;
+}
+
+@media screen and (max-width: 767px){
+
+    .texto-header{
+        display: none;
+    }
+
+    .nav{
+        padding: 0 5%;
+    }
+
 }

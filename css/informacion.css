@@ -54,7 +54,46 @@
     background: rgb(45, 139, 228);
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 767px){
+
+    .contenido-informacion{
+        flex-direction: column-reverse;
+    }
+    
+    .texto-informacion{
+        width: 100%;
+    }
+
+    .informacion-titulo{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .informacion-parrafo{
+        font-size: 14px;
+        line-height: 19px;
+        margin: 15px 0;
+    }
+
+    .enlaces-informacion a{
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .enlaces-informacion i{
+        font-size: 15px;
+    }
+
+    .contenido-informacion img{
+        width: 50%;
+        height: 50%;
+        margin-bottom: 1.5rem;
+    }
+}
+/*--- ---- ---- ---- ---- ---- */
+
+@media screen and (){
+    
     .texto-informacion{
         width: 67%;
     }
@@ -83,5 +122,4 @@
         width: 28%;
         height: 28%;
     }
-    
 }
