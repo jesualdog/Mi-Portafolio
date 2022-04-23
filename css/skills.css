@@ -47,7 +47,7 @@
 @media screen and (max-width: 767px){
 
     .skills{
-        padding: 35px 0 5px 0;
+        padding: 35px 0 10px 0;
     }
 
     .titulo-skills{
@@ -58,7 +58,7 @@
         width: 47%;
         height: 130px;
         padding: 50px 16px 16px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 }
 

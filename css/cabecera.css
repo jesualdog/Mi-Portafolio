@@ -69,11 +69,15 @@ nav{
     }
 
     .enlaces-header a{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .nombre::before {
-        font-size: 13px;
+        font-size: 15px;
+    }
+
+    .enlaces-header a.activo{
+        font-weight: 400;
     }
 }
 
