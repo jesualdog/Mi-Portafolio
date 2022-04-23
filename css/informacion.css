@@ -32,7 +32,6 @@
 .enlaces-informacion{
     width: 100%;
     display: flex;
-    justify-content: space-between;
 }
 
 .enlaces-informacion a{
@@ -45,6 +44,7 @@
 .enlaces-informacion i{
     font-size: 20px;
     color: #464646;
+    margin-right: 2rem;
 }
 
 .contenido-informacion img{
@@ -75,17 +75,22 @@
         margin: 15px 0;
     }
 
+    .enlaces-informacion{
+        justify-content: space-between;
+    }
+
     .enlaces-informacion a{
         font-size: 14px;
     }
 
     .enlaces-informacion i{
         font-size: 15px;
+        margin: 0;
     }
 
     .contenido-informacion img{
-        width: 60%;
-        height: 60%;
+        width: 65%;
+        height: 65%;
         margin-bottom: 1.5rem;
     }
 }
@@ -107,6 +112,10 @@
         line-height: 19px;
     }
 
+    .enlaces-informacion{
+        justify-content: space-between;
+    }
+
     .contenido-informacion img{
         width: 30%;
         height: 30%;
@@ -114,6 +123,10 @@
 
     .enlaces-informacion a{
         font-size: 16px;
+    }
+
+    .enlaces-informacion i{ 
+        margin: 0;
     }
     
 }

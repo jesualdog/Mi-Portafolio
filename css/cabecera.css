@@ -27,6 +27,7 @@ nav{
     height: 80px;
     width: 100%;
     align-items: center;
+    padding: 0 2.5%;
 }
 
 .logo{
@@ -80,11 +81,11 @@ nav{
     }
 
     .enlaces-header a{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .nombre::before {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
