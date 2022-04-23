@@ -42,10 +42,12 @@
     text-align: center;
 }
 
+/*Todo--- ---- ---- --- Responsive para Movile --- ---- ---- ---- */
+
 @media screen and (max-width: 767px){
 
     .skills{
-        padding: 35px 0 10px 0;
+        padding: 35px 0 5px 0;
     }
 
     .titulo-skills{
@@ -56,14 +58,16 @@
         width: 47%;
         height: 130px;
         padding: 50px 16px 16px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+/*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
 
     .skills{
-        padding: 35px 0 10px 0;
+        padding: 35px 0 5px 0;
     }
 
     .titulo-skills{
@@ -74,7 +78,7 @@
         width: 30%;
         height: 130px;
         padding: 50px 16px 16px;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 
 }

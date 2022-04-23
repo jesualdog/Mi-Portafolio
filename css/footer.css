@@ -9,6 +9,8 @@
     color: #464646;
 }
 
+/*Todo--- ---- ---- --- Responsive para Movile --- ---- ---- ---- */
+
 @media screen and (max-width: 767px){
 
     .footer p{

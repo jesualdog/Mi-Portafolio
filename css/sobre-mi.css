@@ -20,6 +20,8 @@
     color: #464646;
 }
 
+/*Todo--- ---- ---- --- Responsive para Movile --- ---- ---- ---- */
+
 @media screen and (max-width: 767px){
     .texto-sobreMi{
         width: 100%;
@@ -36,7 +38,9 @@
     }
 }
 
-@media screen and (max-width: 1023px){
+/*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
     .texto-sobreMi{
         width: 100%;
     }

@@ -23,7 +23,7 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 5px 1px #464646;
     height: 200px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .formacion-imagen{
@@ -49,10 +49,16 @@
     color: #464646;
 }
 
+/*Todo--- ---- ---- --- Responsive para Movile --- ---- ---- ---- */
+
 @media screen and (max-width: 767px){
 
     .formacion{
-        padding: 35px 0 10px 0;
+        padding: 35px 0 5px 0;
+    }
+
+    .box-imagen{
+        margin-bottom: 12px;
     }
 
     .titulo-formacion{
@@ -61,14 +67,20 @@
 
     .formacion-items{
         width: 100%;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+/*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
 
     .formacion{
-        padding: 35px 0 10px 0;
+        padding: 35px 0 5px 0;
+    }
+
+    .box-imagen{
+        margin-bottom: 12px;
     }
 
     .titulo-formacion{
@@ -77,7 +89,7 @@
   
     .formacion-items{
         width: 47%;
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
     
 }

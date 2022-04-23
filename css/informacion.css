@@ -54,6 +54,8 @@
     background: rgb(45, 139, 228);
 }
 
+/*Todo--- ---- ---- --- Responsive para Movile --- ---- ---- ---- */
+
 @media screen and (max-width: 767px){
 
     .contenido-informacion{
@@ -94,9 +96,10 @@
         margin-bottom: 1.5rem;
     }
 }
-/*--- ---- ---- ---- ---- ---- */
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+/*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
 
     .informacion-titulo{
         font-size: 22px;

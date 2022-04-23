@@ -78,7 +78,7 @@
     cursor: pointer;
 }
 
-/* --- --- --- Responsive Mobile --- --- --- */
+/*Todo--- ---- ---- --- Responsive para Movile --- ---- ---- ---- */
 
 @media screen and (max-width: 767px){
 
@@ -107,8 +107,9 @@
     }
 }
 
-/* --- --- --- Responsive Tablet --- --- --- */
-@media screen and (min-width: 768px) and (max-width: 1023px){
+/*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
 
     .contacto-texto{
         width: 100%;
