@@ -27,7 +27,7 @@ nav{
     height: 80px;
     width: 100%;
     align-items: center;
-    padding: 0 2.5%;
+    padding: 0 7%;
 }
 
 .logo{
@@ -64,10 +64,6 @@ nav{
         display: none;
     }
 
-    .nav{
-        padding: 0 5%;
-    }
-
     .enlaces-header a{
         font-size: 15px;
     }
@@ -87,10 +83,6 @@ nav{
 
     .texto-header{
         display: none;
-    }
-
-    .nav{
-        padding: 0 5%;
     }
 
     .enlaces-header a{
