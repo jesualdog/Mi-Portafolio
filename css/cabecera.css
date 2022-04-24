@@ -25,9 +25,7 @@ nav{
     display: flex;
     justify-content: space-between;/*Genera un espacio entre los dos elementos y los pega a los costados*/
     height: 80px;
-    width: 100%;
     align-items: center;
-    padding: 0 7%;
 }
 
 .logo{
@@ -79,7 +77,7 @@ nav{
 
 /*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
 
-@media screen and (min-width: 767px) and (max-width: 1023px){
+@media screen and (min-width: 767px) and (max-width: 1024px){
 
     .texto-header{
         display: none;

@@ -65,7 +65,7 @@
 
 /*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
 
-@media screen and (min-width: 767px) and (max-width: 1023px){
+@media screen and (min-width: 767px) and (max-width: 1024px){
 
     .hobbies{
         padding: 30px 0 5px 0;
