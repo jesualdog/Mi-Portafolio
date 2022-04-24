@@ -7,8 +7,9 @@
 
 .contenedor{
     width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
-    /*overflow: hidden;Especifica si recortar contenido*/  
+    /*overflow: hidden; Especifica si recortar contenido*/  
 }
 
 header, #informacion, #skills, #hobbies, #experiencia{
