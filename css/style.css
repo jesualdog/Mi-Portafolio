@@ -6,8 +6,8 @@
 }
 
 .contenedor{
-    width: 90%;
-    max-width: 1200px;
+    width: 85%;
+    /*max-width: 1200px;*/
     margin: 0 auto;
     /*overflow: hidden; Especifica si recortar contenido*/  
 }
@@ -18,4 +18,18 @@ header, #informacion, #skills, #hobbies, #experiencia{
 
 #sobre-mi, #formacion, #contacto{
     background: #EAF2FD;
+}
+
+@media screen and (max-width: 767px){
+
+    .contenedor{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+
+    .contenedor{
+        width: 90%;
+    }
 }
