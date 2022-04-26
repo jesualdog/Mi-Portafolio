@@ -7,17 +7,16 @@
     justify-content: space-between;
 }
 
-.contacto-img{
+.contacto-imagen{
     display: block;
-    width: 480px;
+    width: 46%;
     height: 500px;
 }
 
 .contacto-texto{
-    width: 50vw;
+    width: 52%;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
 }
 
 .titulo-contacto{
@@ -82,7 +81,7 @@
 
 @media screen and (max-width: 767px){
 
-    .contacto-img{
+    .contacto-imagen{
         display: none;
     }
 
@@ -102,29 +101,22 @@
         padding: 10px;
     }
 
-    .contacto-texto{
-        margin: 0;
-    }
 }
 
 /*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
 
 @media screen and (min-width: 767px) and (max-width: 1024px){
 
+    .contacto-imagen{
+        display: none;
+    }
+
     .contacto-texto{
         width: 100%;
     }
 
-    .contacto-img{
-        display: none;
-    }
-
     .titulo-contacto{
         font-size: 22px;
-    }
-
-    .contacto-texto{
-        margin: 0;
     }
 
     .contacto-btn{
