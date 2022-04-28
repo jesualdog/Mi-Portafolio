@@ -79,7 +79,7 @@
 
 /*Todo--- ---- ---- --- Responsive para Movile --- ---- ---- ---- */
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
 
     .contacto-imagen{
         display: none;
@@ -105,7 +105,7 @@
 
 /*Todo--- ---- ---- --- Responsive para Tablet --- ---- ---- ---- */
 
-@media screen and (min-width: 767px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
     .contacto-imagen{
         display: none;
