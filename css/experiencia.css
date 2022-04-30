@@ -4,7 +4,6 @@
 
 .contenido-experiencia{
     width: 100%;
-    text-align: center;
 }
 
 .titulo-experiencia{
@@ -57,7 +56,6 @@
 
 .caja-botones{
     display: flex;
-    justify-content: center;
 }
 
 .btn-repositorio{
@@ -94,6 +92,10 @@
 
 @media screen and (max-width: 768px){
 
+    .contenido-experiencia{
+        text-align: center;
+    }
+
     .titulo-experiencia{
         font-size: 22px;
     }
@@ -127,13 +129,19 @@
         font-size: 14px;
     }
 
+    .caja-botones{
+        justify-content: center;
+    }
+
     .btn-demo{
         font-size: 14px;
+        font-weight: 600;
         padding: 8px;
     }
 
     .btn-repositorio{
         font-size: 14px;
+        font-weight: 600;
         padding: 8px;
     }
 
@@ -178,11 +186,13 @@
 
     .btn-demo{
         font-size: 14px;
+        font-weight: 600;
         padding: 8px;
     }
 
     .btn-repositorio{
         font-size: 14px;
+        font-weight: 600;
         padding: 8px;
     }
 
