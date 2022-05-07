@@ -19,7 +19,7 @@ function validarDatos(){
         document.formulario.asunto.focus();
     }
     else if(document.formulario.mensaje.value==""){
-        alert("Campo Mensaje Obligatorio")
+        alert("Campo Mensaje Obligatorio y debe contener máximo 500 caracteres")
         document.formulario.mensaje.focus(); 
     }
 
